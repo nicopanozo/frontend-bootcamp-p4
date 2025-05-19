@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bolivia City Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Weather in Bolivian Cities</h1>
+
+  <select id="city-select">
+    <option value="">-- Select a city --</option>
+    <option value="La Paz">La Paz</option>
+    <option value="Santa Cruz">Santa Cruz</option>
+    <option value="Cochabamba">Cochabamba</option>
+    <option value="Sucre">Sucre</option>
+    <option value="Oruro">Oruro</option>
+  </select>
+
+  <div id="spinner" class="hidden"></div>
+
+  <div id="weather-info" class="hidden">
+    <h2 id="city-name"></h2>
+    <p>Temperature: <span id="temp"></span> °C</p>
+    <p>Humidity: <span id="humidity"></span>%</p>
+    <p>Description: <span id="desc"></span></p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
