@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+#output {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
